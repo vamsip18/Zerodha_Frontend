@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-link{
+  padding-left: 40px !important;
+};
+
+#support{
+  background-color: #387ed1 !important;
+  color:"white";
+}
+
+#supportHero{
+  padding-left: 20px;
+  padding-right: 20px;
 }
