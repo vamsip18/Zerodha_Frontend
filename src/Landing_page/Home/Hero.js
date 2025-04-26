@@ -5,7 +5,7 @@ function Hero() {
     return ( 
         <div className='container mb-5 text-muted'>
             <div className='row p-5'>
-                <img src='public/images/homeHero.png' alt='hero' />
+                <img src='./images/homeHero.png' alt='hero' />
             </div>
             <div className='row text-center'>
                 <h1>Invest in everything</h1>
