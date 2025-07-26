@@ -28,7 +28,7 @@ function Awards() {
                         </div>
                     </div>
                     <div className='mt-3'>
-                        <img src='.\Images\pressLogos.png"' alt='pressLogos'></img>
+                        <img src='.\Images\pressLogos.png' alt='pressLogos'></img>
                     </div>
                 </div>
             </div>
