@@ -9,29 +9,29 @@ function Universe() {
             </div>
             <div className='row m-auto text-muted mt-5'>
                 <div className='col m-auto text-center mb-5'>
-                    <img className='mb-3' src="./images/zerodhaFundhouse.png" style={{width:"200px"}} alt='img'></img>
+                    <img className='mb-3' src="./Images/zerodhaFundhouse.png" style={{width:"200px"}} alt='img'></img>
                     <p style={{margin:"auto"}}>Asset management</p>
                 </div>
                 <div className='col m-auto text-muted text-center mb-5'>
-                    <img className='mb-3' src="./images/sensibullLogo.svg" style={{width:"200px"}} alt='img'></img>
+                    <img className='mb-3' src="./Images/sensibullLogo.svg" style={{width:"200px"}} alt='img'></img>
                     <p style={{margin:"auto"}}>Options trading platform</p>
                 </div>
                 <div className='col m-auto text-muted text-center mb-5'>
-                    <img className='mb-3' src="./images/streakLogo.png" style={{width:"200px"}} alt='img'></img>
+                    <img className='mb-3' src="./Images/streakLogo.png" style={{width:"200px"}} alt='img'></img>
                     <p style={{margin:"auto"}}>Algo & strategy platform</p>
                 </div>
             </div>
             <div className='row m-auto'>
                 <div className='col m-auto text-muted text-center mb-5'>
-                    <img className='mb-3' src="./images/dittoLogo.png" style={{width:"200px"}} alt='img'></img>
+                    <img className='mb-3' src="./Images/dittoLogo.png" style={{width:"200px"}} alt='img'></img>
                     <p style={{margin:"auto"}}>Insurance</p>
                 </div>
                 <div className='col m-auto text-muted text-center mb-5'>
-                    <img className='mb-3' src="./images/goldenpiLogo.png" style={{width:"200px",marginBottom:"5"}} alt='img'></img>
+                    <img className='mb-3' src="./Images/goldenpiLogo.png" style={{width:"200px",marginBottom:"5"}} alt='img'></img>
                     <p style={{margin:"auto"}}>Bonds trading platform</p>
                 </div>
                 <div className='col m-auto text-muted text-center mb-5'>
-                    <img className='mb-3' src="./images/smallcaseLogo.png" style={{width:"200px"}} alt='img'></img>
+                    <img className='mb-3' src="./Images/smallcaseLogo.png" style={{width:"200px"}} alt='img'></img>
                     <p style={{margin:"auto"}}>Thematic investment platform</p>
                 </div>
             </div>

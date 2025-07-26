@@ -8,7 +8,7 @@ function Hero() {
         e.preventDefault(); 
         setLoading(true);
         try {
-            const response = await fetch('http://localhost:3002/api/send-otp', {
+            const response = await fetch('https://backend-i7ob.onrender.com/api/send-otp', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -21,14 +21,15 @@ function Hero() {
             if (data.success) {
                 alert(`OTP sent to ${mobile}`);
                 // Open http://localhost:3001/ in a new tab
-                window.open('http://localhost:3001/', '_blank');
+                window.open('https://dashboard-eight-mu-84.vercel.app/', '_blank');
             } else {
                 // alert(`Failed to send OTP: ${data.message || 'Try again later'}`);
-                window.open('http://localhost:3001/', '_blank');
+                window.open('https://dashboard-eight-mu-84.vercel.app/', '_blank');
             }
         } catch (error) {
-            alert('Error sending OTP. Please try again.');
-            console.error('OTP error:', error);
+            window.open('https://dashboard-eight-mu-84.vercel.app/', '_blank');
+            // alert('Error sending OTP. Please try again.');
+            // console.error('OTP error:', error);
         } finally {
             setLoading(false);
         }
@@ -72,7 +73,7 @@ function Hero() {
 
                             <div className='mt-4 text-center'>
                                 <button type="submit" className='btn btn-primary px-4 py-2 rounded shadow-sm fw-semibold' disabled={loading}>
-                                    {loading ? 'Sending OTP...' : 'signup'}
+                                    {loading ? 'Logging in...' : 'signup'}
                                 </button>
                             </div>
                         </div>

@@ -27,7 +27,7 @@ function Stats() {
                 </div>
                 <div className='col-6 mt-4'>
                     <div className='row'>
-                        <img src='./images/ecosystem.png' alt='ecosystem' />
+                        <img src='./Images/ecosystem.png' alt='ecosystem' />
                     </div>
                     <div className='row'>
                         <div className='col-6'>
